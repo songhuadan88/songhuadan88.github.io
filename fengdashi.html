@@ -18,11 +18,11 @@
             </tr>
             <tr>
                 <td>规格800*800</td>
-                <td><input id="t500" onkeyup=update(this) type="number" value="0"></td>
+                <td><input id="t500" onkeyup=update() onclick=update() type="number" value="0"></td>
             </tr>
             <tr>
                 <td>规格400*800</td>
-                <td><input id="t400" onkeyup=update(this) type="number" value="0"></td>
+                <td><input id="t400" onkeyup=update() onclick=update() type="number" value="0"></td>
             </tr>
             <tr>
                 <td>瓷砖总价</td>
@@ -33,7 +33,7 @@
         </table>
     </div>
     <script>
-        function update(input) {
+        function update() {
             var v500 = document.getElementById("t500").value;
             var v400 = document.getElementById("t400").value;
             document.getElementById("price").innerHTML = (v500 * 5 + v400 * 4) + "元";
