@@ -4,29 +4,33 @@
 
 <head>
     <title>Fengdashi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 
 <body>
-    <table>
-        <tr>
-            <th>规格</th>
-            <th>数目</th>
-        </tr>
-        <tr>
-            <td>500*500</td>
-            <td><input id="t500" onkeyup=update(this) type="number" value="0"></td>
-        </tr>
-        <tr>
-            <td>400*400</td>
-            <td><input id="t400" onkeyup=update(this) type="number" value="0"></td>
-        </tr>
-        <tr>
-            <td>价格</td>
-            <td>
-                <p id="price">0元</p>
-            </td>
-        </tr>
-    </table>
+    <div>
+        <table class="w3-table">
+            <tr>
+                <th>规格</th>
+                <th>数目</th>
+            </tr>
+            <tr>
+                <td>500*500</td>
+                <td><input id="t500" onkeyup=update(this) type="number" value="0"></td>
+            </tr>
+            <tr>
+                <td>400*400</td>
+                <td><input id="t400" onkeyup=update(this) type="number" value="0"></td>
+            </tr>
+            <tr>
+                <td>价格</td>
+                <td>
+                    <p id="price">0元</p>
+                </td>
+            </tr>
+        </table>
+    </div>
     <script>
         function update(input) {
             var v500 = document.getElementById("t500").value;
