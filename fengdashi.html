@@ -9,55 +9,55 @@
 </head>
 
 <body>
-        <table class="w3-table">
-            <caption>缝大师AA级材料美缝价格计算器</caption>
-            <tr>
-                <th>瓷砖规格</th>
-                <th>瓷砖用量（片）</th>
-            </tr>
-            <tr>
-                <td>规格800*800</td>
-                <td><input id="t8080" onkeyup=update() onclick=update() type="number" value="0"></td>
-            </tr>
-            <tr>
-                <td>规格400*800</td>
-                <td><input id="t4080" onkeyup=update() onclick=update() type="number" value="0"></td>
-            </tr>
-            <tr>
-                <td>规格600*600</td>
-                <td><input id="t6060" onkeyup=update() onclick=update() type="number" value="0"></td>
-            </tr>
-            <tr>
-                <td>规格300*600</td>
-                <td><input id="t3060" onkeyup=update() onclick=update() type="number" value="0"></td>
-            </tr>
-            <tr>
-                <td>规格500*500</td>
-                <td><input id="t5050" onkeyup=update() onclick=update() type="number" value="0"></td>
-            </tr>
-            <tr>
-                <td>规格400*400</td>
-                <td><input id="t4040" onkeyup=update() onclick=update() type="number" value="0"></td>
-            </tr>
-            <tr>
-                <td>规格300*300</td>
-                <td><input id="t3030" onkeyup=update() onclick=update() type="number" value="0"></td>
-            </tr>
-            <tr>
-                <td>规格900*900</td>
-                <td><input id="t9090" onkeyup=update() onclick=update() type="number" value="0"></td>
-            </tr>
-            <tr>
-                <td>规格450*900</td>
-                <td><input id="t4590" onkeyup=update() onclick=update() type="number" value="0"></td>
-            </tr>
-            <tr>
-                <td>瓷砖总价</td>
-                <td id="price">
-                    0元
-                </td>
-            </tr>
-        </table>
+    <h2>缝大师AA级材料美缝价格计算器</h2>
+    <table class="w3-table">            
+        <tr>
+            <th>瓷砖规格</th>
+            <th>瓷砖用量（片）</th>
+        </tr>
+        <tr>
+            <td>规格800*800</td>
+            <td><input id="t8080" onkeyup=update() onclick=update() type="number" value="0"></td>
+        </tr>
+        <tr>
+            <td>规格400*800</td>
+            <td><input id="t4080" onkeyup=update() onclick=update() type="number" value="0"></td>
+        </tr>
+        <tr>
+            <td>规格600*600</td>
+            <td><input id="t6060" onkeyup=update() onclick=update() type="number" value="0"></td>
+        </tr>
+        <tr>
+            <td>规格300*600</td>
+            <td><input id="t3060" onkeyup=update() onclick=update() type="number" value="0"></td>
+        </tr>
+        <tr>
+            <td>规格500*500</td>
+            <td><input id="t5050" onkeyup=update() onclick=update() type="number" value="0"></td>
+        </tr>
+        <tr>
+            <td>规格400*400</td>
+            <td><input id="t4040" onkeyup=update() onclick=update() type="number" value="0"></td>
+        </tr>
+        <tr>
+            <td>规格300*300</td>
+            <td><input id="t3030" onkeyup=update() onclick=update() type="number" value="0"></td>
+        </tr>
+        <tr>
+            <td>规格900*900</td>
+            <td><input id="t9090" onkeyup=update() onclick=update() type="number" value="0"></td>
+        </tr>
+        <tr>
+            <td>规格450*900</td>
+            <td><input id="t4590" onkeyup=update() onclick=update() type="number" value="0"></td>
+        </tr>
+        <tr>
+            <td>瓷砖总价</td>
+            <td id="price">
+                0元
+            </td>
+        </tr>
+    </table>
     <script>
         function update() {
             var v8080 = document.getElementById("t8080").value;
