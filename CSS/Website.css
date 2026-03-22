@@ -1,16 +1,102 @@
-﻿html {
-    
+body {
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
 }
 
-body
-{
-   
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px 100px 20px;
+    overflow: auto;
 }
 
+h1, h2, h3 {
+    color: #000;
+}
 
-p.ordinarypassage{
-    font-family:"Times New Roman", Times, serif;
-    font-size:14pt;
-    text-align:justify;
-    line-height: 1.4;
+p.ordinarypassage {
+    font-size: 14pt;
+    text-align: justify;
+    margin-bottom: 1em;
+}
+
+.profile-img {
+    width: 100%;
+    max-width: 512px;
+    height: auto;
+    margin: 20px 0 20px 35px;
+    float: right;
+}
+
+.side-img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    margin: 20px 0 20px 35px;
+    float: right;
+}
+
+ul {
+    margin-bottom: 1em;
+}
+
+.contact-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.contact-list li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-list img {
+    margin-right: 10px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: lightyellow;
+    border-top: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer h3 {
+    margin: 0;
+    font-size: 11pt;
+    font-weight: normal;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+    .profile-img, .side-img {
+        float: none;
+        display: block;
+        margin: 20px auto;
+    }
 }
