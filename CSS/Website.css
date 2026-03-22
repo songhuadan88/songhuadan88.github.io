@@ -1,16 +1,69 @@
 ﻿html {
-    
+
 }
 
 body
 {
-   
+
 }
 
 
-p.ordinarypassage{
-    font-family:"Times New Roman", Times, serif;
-    font-size:14pt;
-    text-align:justify;
-    line-height: 1.4;
+.main-content {
+    max-width: 800px;
+    margin: 20px auto 80px auto;
+    padding: 0 20px;
+    overflow: auto;
+}
+
+p.ordinarypassage, li.ordinarypassage {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14pt;
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+li.ordinarypassage {
+    margin-bottom: 10px;
+}
+
+.footer {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    background-color: lightyellow;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    z-index: 1000;
+}
+
+.footer h3 {
+    margin: 15px 0;
+    font-size: 1.1em;
+}
+
+.floated-image {
+    margin: 10px 0 20px 20px;
+    vertical-align: middle;
+    float: right;
+    max-width: 100%;
+}
+
+.avatar {
+    width: 400px;
+    margin-top: 20px;
+}
+
+.icon-inline {
+    height: 18px;
+    vertical-align: middle;
+}
+
+.top-padded {
+    padding-top: 25px;
+}
+
+.doodle-jump {
+    width: 250px;
 }
